@@ -30,19 +30,35 @@ for(let num = 2; num < 100; num = num * 2) {
     console.log("O número é: " + num);
 } */
 
-let x = 0;
-let y = 0;
+/* SAÍDA DE LOOP COM: break */
 
-if(x == 0 && y == 0) {
-    let z = 5;
-    if (z > 2) {
-        console.log(z);
-    for (i = 0; i < 5; i = i + 1) {
-        console.log(i)
-        if(i == 2) {
-            console.log("i é = 2")
-        }
+let nome = "Luiz";
+
+for(let i = 0; i < 10; i = i + 1) {
+
+    if(i == 3) {
+        nome = "Hugo";
     }
+
+    if(i == 6 && nome == "Hugo") {
+        console.log("O nome é Hugo, pode parar.");
+        break;
+    }
+
+    console.log(i);
 }
+
+/* PULAR A EXECUÇÃO DO LOOP COM: continue */
+
+for(let i = 10; i > 0; i = i - 1) {
+
+    if(i % 2 == 0) {
+        console.log("Caiu no continue");
+        continue;
+    }
+
+    console.log(i);
 }
+
+
 
