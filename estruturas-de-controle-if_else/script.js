@@ -1,4 +1,4 @@
-let idade = 66;
+let idade = 16;
 
 if(idade >= 18 && idade <= 65) {
     console.log("Seu voto é obrigatório.")
