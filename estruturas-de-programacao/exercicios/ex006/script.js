@@ -1,5 +1,5 @@
 let idade = 18;
-let cnh = false;
+let cnh = true;
 
 if(idade < 18) {
     console.log("Você ainda não tem idade para tirar sua CNH.")
