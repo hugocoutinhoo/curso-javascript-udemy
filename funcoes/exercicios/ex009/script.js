@@ -1,5 +1,6 @@
 function potencia(x,y) {
     return Math.pow(x,y)
+    // return a ** b
 }
 
 console.log(potencia(6,2));
