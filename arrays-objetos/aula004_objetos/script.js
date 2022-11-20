@@ -24,3 +24,19 @@ console.log(cachorro.patas);
 console.log(cachorro.nome);
 console.log(cachorro.cor);
 cachorro.latir();
+
+//// Adicionando e deletando propriedades ao longo do programa:
+let pessoa2 = {
+    nome: "Luiz",
+    idade: 29,
+    profissao: "Estudante"
+}
+console.log(pessoa2.nome);
+//deletando propriedade:
+delete pessoa2.nome;
+
+console.log(pessoa2.nome);
+//adicionando propriedade:
+pessoa2.nome = "Luiz"
+
+console.log(pessoa2.nome);
