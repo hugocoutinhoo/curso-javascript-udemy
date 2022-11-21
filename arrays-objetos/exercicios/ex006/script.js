@@ -1,10 +1,19 @@
-let nomes = ["João", "Maria", "José", "Hugo", "Jesus"];
+let nomes = ["João", "Maria", "José", "Hugo", "Jesus", "Pedro"];
 
-// console.log(nomes.includes("Hugo"))
+let nomes2 = ["João", "Maria", "José", "Jesus"];
 
-if(nomes.includes("Hugo") == true) {
-    console.log("O nome pesquisado consta na lista.")
-} else {
-    console.log("O nome pesquisado não consta na lista.")
+let nums = [1, 2, 3, 4, 5];
+
+function numeroDeElementos(arr) {
+    if(arr.length < 5) {
+        console.log("Poucos elementos")
+    } else if(arr.length > 5) {
+        console.log("Muitos elementos")
+    } else {
+        console.log("Número ideal de arrays")
+    }
 }
 
+numeroDeElementos(nomes);
+numeroDeElementos(nomes2);
+numeroDeElementos(nums);
