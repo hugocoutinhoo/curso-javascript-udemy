@@ -11,3 +11,4 @@ function tipoDeDado(dado) {
 tipoDeDado("hugo");
 tipoDeDado(23);
 tipoDeDado(true);
+

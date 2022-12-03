@@ -17,3 +17,5 @@ function numeroDeElementos(arr) {
 numeroDeElementos(nomes);
 numeroDeElementos(nomes2);
 numeroDeElementos(nums);
+
+
