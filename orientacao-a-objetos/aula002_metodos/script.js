@@ -13,7 +13,7 @@ cachorro.rosnar() */
 /* MAIS SOBRE MÉTODOS */
 
 const cachorro = {
-    raca: 'SRD',
+    raca: 'Sem raça definida',
     uivar: function() {
         console.log("Auuuuuuuuuuuu");
     },
@@ -23,8 +23,8 @@ const cachorro = {
     setRaca: function(raca) {
         this.raca = raca;
     },
-    getRaca: function() {
-        return "A raça é " + this.raca;
+    getRaca: function() { //Imprimir informações do próprio objeto
+        return "A raça é " + this.raca; 
     }
 }
 
