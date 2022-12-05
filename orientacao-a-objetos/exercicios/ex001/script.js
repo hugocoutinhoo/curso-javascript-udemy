@@ -1,32 +1,21 @@
-let cachorro = {
-    raca: 'Sem raça definida',
-    patas: 4,
-    latir: function () {
-        console.log('Au au')
+class Conta {
+    constructor(saldo) {
+        this.saldo = saldo
+    }
+    deposito(valor) {
+        this.saldo += valor
+    }
+    saque(valor) {
+        this.saldo -= valor
     }
 }
 
-let pastorAlemao = Object.create(cachorro)
-pastorAlemao.raca = 'Pastor Alemão'
+let conta = new Conta(1000)
 
-console.log(pastorAlemao.raca)
-pastorAlemao.latir()
+conta.deposito(1000)
 
-let goldenRetriever = Object.create(cachorro)
-goldenRetriever.raca = 'Golden Retriever'
+console.log(conta.saldo)
 
-console.log(goldenRetriever.raca)
-goldenRetriever.latir()
+conta.saque(400)
 
-let labrador = Object.create(cachorro)
-labrador.raca = 'Labrador'
-
-console.log(labrador.raca)
-labrador.latir()
-
-console.log(labrador.patas)
-
-console.log(Object.getPrototypeOf(labrador) === cachorro);
-
-console.log(cachorro.raca)
-
+console.log(conta.saldo)
