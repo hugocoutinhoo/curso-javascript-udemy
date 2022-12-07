@@ -8,7 +8,7 @@
 const numero = 10;
 
 if (numero <= 11) {
-    console.log('O número é menor que 10.');
+    console.log('O número é menor ou igual a 11.');
 }
 
 if (numero >= 0 && numero <= 5) {
