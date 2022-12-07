@@ -1,4 +1,4 @@
-function imprimirNoConsole() {
+/* function imprimirNoConsole() {
     console.log("Olá, mundo!");
 }
 
@@ -10,12 +10,30 @@ function imprimirUmNumero(num) {
 
 imprimirUmNumero(6);
 imprimirUmNumero(3);
-imprimirUmNumero(5);
-imprimirUmNumero(8);
 
 const numeroAleatorio = function() {
     console.log(Math.random());
 }
 
 numeroAleatorio();
-numeroAleatorio();
+numeroAleatorio(); */
+
+
+//FUNÇÃO QUE RETORNA VALOR: 
+/* function soma(x, y) {
+    const resultado = x + y;
+    return resultado;
+}
+console.log(soma(2,2)); */
+
+//-----------------------------------------------------------------
+//FUNÇÃO DENTRO DE VARIÁVEL (Função Anônima):
+/* const raiz = function (n) {
+    return n ** 0.5;
+};
+console.log(raiz(9)); */
+
+//-----------------------------------------------------------------
+//ARROW FUNCTIONS:
+const raiz = n => n ** 0.5;
+console.log(raiz(9));
