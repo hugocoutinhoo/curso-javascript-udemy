@@ -13,7 +13,7 @@ for (let i = 0; i < elementos.length; i++) {
     let tagCriada = document.createElement(tag);
     let textoCriado = document.createTextNode(texto);
 
-    tagCriada.appendChild(textoCriado);
+    tagCriada.appendChild(textoCriado); //adicionar filho
   //tagCriada.innerHTML = texto;
   //tagCriada.innerText = texto;
     div.appendChild(tagCriada);
